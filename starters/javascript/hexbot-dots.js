@@ -34,7 +34,6 @@ function draw() {
     count: 1000,
     width: appWidth,
     height: appHeight,
-    seed: 'FF7F50,FFD700,FF8C00',
   }, drawSet);
 }
 
