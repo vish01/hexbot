@@ -1,4 +1,4 @@
-const API_BASE = 'https://api.noopschallenge.com';
+const API_BASE = 'https://api.noopschallenge.com/hexbot?count=10';
 
 function NOOPBOT_START() {
   console.log(`Noop Noop! 🤖🤖🤖🤖🤖`);
