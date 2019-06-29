@@ -50,7 +50,7 @@ function drawPoint(ctx, point) {
   let pointSize = NOOPBOT_RANDOM(1,8);
   ctx.globalAlpha = Math.random();
   ctx.beginPath();
-  ctx.arc(point.coordinates.x, point.coordinates.y, pointSize, 0, Math.PI * 2, true);
+  ctx.rect(point.coordinates.x, point.coordinates.y, pointSize, Math.PI *2.5, true);
   ctx.fill();
 }
 
